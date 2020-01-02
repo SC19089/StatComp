@@ -1,0 +1,19 @@
+Package: SC19089
+Type: Package
+Title: Example functions for 'Statistical Computing' course
+Version: 1.0
+Date: 2019-12-27
+Author: Yaru Tian
+Maintainer: Yaru Tian <tt1997@mail.ustc.edu.cn>
+Description: Several R and Rcpp function are included in this package for illustration. 
+License: GPL (>= 2)
+Imports: Rcpp (>= 0.12.16), microbenchmark, knitr, rmarkdown
+LinkingTo: Rcpp
+Suggests: knitr,rmarkdown
+RoxygenNote: 7.0.2
+Encoding: UTF-8
+VignetteBuilder: knitr
+URL: http://github.com/SC19089/Package
+BugReports: http://github.com/SC19089/Package/issues
+NeedsCompilation: yes
+Packaged: 2019-12-31 09:15:56 UTC; 86152
